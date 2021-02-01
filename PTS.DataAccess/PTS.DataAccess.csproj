@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210129113125_pernotify.cs" />
+    <Compile Remove="Migrations\20210129113125_pernotify.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PTS.Entities\PTS.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
